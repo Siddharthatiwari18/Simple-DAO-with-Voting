@@ -1,0 +1,15 @@
+[package]
+name = "Simple--DAO-With--Voting"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xb0185844e3dd93c12bdfdcfd249315a93d2e0d4bc530145d2f1452f355292472"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
